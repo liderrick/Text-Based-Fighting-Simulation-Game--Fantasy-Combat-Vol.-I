@@ -16,7 +16,7 @@ The following gameplay specifications were sourced from the project assignment (
 
 <div align="center">
     <img src="character_chart.png" width="700">
-</div>&nbsp
+</div>
 
 > “3d6” is rolling three 6-sided dice, “2d10” is rolling two 10-sided dice, etc.
 >
