@@ -9,8 +9,8 @@ Fantasy Combat Vol. I is a text-based fighting simulation game coded in C++. The
 ## Class Diagram
 ![](class_diagram.png)
 
-## Gameplay Specifications
-The following gameplay specifications were sourced from the project assignment (Project 3, Oregon State University, CS 162 - Winter 2017).
+## Simulation Specifications
+The following simulations specifications were sourced from the project assignment (Project 3, Oregon State University, CS 162 - Winter 2017).
 
 > [The] ‘universe’ contains Vampires, Barbarians, Blue Men, Medusa and Harry Potter. Each has characteristics for attack, defense, armor, and strength points as follows.
 
