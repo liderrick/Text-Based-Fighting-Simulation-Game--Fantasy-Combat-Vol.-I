@@ -26,7 +26,7 @@ Game::Game()
 	randomPlayerTurn();
 
 	cout << "-----------------------------------------------------------------------------" << endl;
-	cout << endl << "Press [Enter] to continue.";
+	cout << "Press [Enter] to continue.";
 	cin.ignore();
 }
 
@@ -88,7 +88,7 @@ void Game::chooseCharacter(int player)
 		}
 		else
 		{
-			cout << "Invalid choice. Try again." << endl;
+			cout << endl << "Invalid choice. Try again." << endl << endl;
 		}
 
 	} while (validChoice == false);
@@ -104,7 +104,7 @@ void Game::chooseCharacter(int player)
 		character = nullptr;
 	}
 
-	cout << "You have chosen Player " << player << " to be ";
+	cout << endl << "You have chosen Player " << player << " to be ";
 		switch (choice)
 		{
 		case 1: cout << "Vampire.";
@@ -177,7 +177,7 @@ void Game::playGame()
 	cout << "   Maximum rollable value on Defense Die: " << p2creature->getNumOfSidesOnDefenseDie() << endl;
 
 	cout << endl << "-----------------------------------------------------------------------------" << endl;
-	cout << endl << "Press [Enter] to start the battle!";
+	cout << "Press [Enter] to start the battle!";
 	cin.ignore();
 
 	while (p1creature->getStrength() > 0 && p2creature->getStrength() > 0)
