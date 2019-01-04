@@ -1,6 +1,6 @@
 # Text-Based Fighting Simulation Game: Fantasy Combat Vol. I
 
-Fantasy Combat Vol. I is a text-based fighting simulation game coded in C++. There are two players. Each of players selects a character from an available pool to battle. Each battle round is logged to the screen until a character is defeat. Then the winning player is shown on screen.
+Fantasy Combat Vol. I is a text-based fighting simulation game coded in C++. There are two players. Each player selects a character from an available pool to battle. The game auto-plays until one character is defeated. The battle sequence is logged to screen and the final winning player is shown.
 
 ## Instructions
 1. Run `make` to compile.
